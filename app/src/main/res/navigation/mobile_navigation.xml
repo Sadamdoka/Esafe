@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.esafeafrica.esafe.Fragments.MapsActivity"
+        android:label="@string/menu_home"
+        tools:layout="@layout/activity_maps" />
+
+    <fragment
+        android:id="@+id/nav_acc"
+        android:name="com.esafeafrica.esafe.Fragments.MgAccount"
+        android:label="My Account"
+        tools:layout="@layout/fragment_mg_account" />
+
+    <fragment
+        android:id="@+id/nav_account"
+        android:name="com.esafeafrica.esafe.Fragments.Account_frag"
+        android:label="@string/emergency_contacts"
+        tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/nav_events"
+        android:name="com.esafeafrica.esafe.Fragments.Events"
+        android:label="My Reported Cases"
+        tools:layout="@layout/fragment_events" />
+
+
+    <fragment
+        android:id="@+id/nav_announce"
+        android:name="com.esafeafrica.esafe.Fragments.Announcements"
+        android:label="@string/announcements"
+        tools:layout="@layout/fragment_announcements" />
+
+
+    <fragment
+        android:id="@+id/cor_press"
+        android:name="com.esafeafrica.esafe.Fragments.PressFragment"
+        android:label="Presidential Guide lines"
+        tools:layout="@layout/fragment_press" />
+
+    <fragment
+        android:id="@+id/nav_uaera"
+        android:name="com.esafeafrica.esafe.Fragments.Ueara"
+        android:label="About Esafe"
+        tools:layout="@layout/fragment_ueara" />
+
+    <fragment
+        android:id="@+id/nav_twitter"
+        android:name="com.esafeafrica.esafe.Fragments.Feed"
+        android:label="Our Twitter Feed"
+        tools:layout="@layout/fragment_feed" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.esafeafrica.esafe.Fragments.About"
+        android:label="@string/about_app"
+        tools:layout="@layout/fragment_about" />
+
+</navigation>

@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Esafe</string>
+    <string name="action_settings">Settings</string>
+    <string name="moto">T &amp; C\'s Apply</string>
+    <string name="safe">Safe</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="swipe_right">Swipe Right for Extras</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Email</string>
+    <string name="emno">Email Or Number</string>
+    <string name="tag">Creating Employment opportunities</string>
+    <string name="swipe_left">Swipe Left for Login</string>
+    <string name="register">Register</string>
+    <string name="re_type_password">Re-type Password</string>
+    <string name="your_name">Full Name</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="account">Account</string>
+    <string name="happening_now">Happening Now</string>
+    <string name="announcements">Announcements</string>
+    <string name="app_help">App Help</string>
+    <string name="about_app">About App</string>
+    <string name="about">Esafe App,is an SOS Mobile app that helps Workers  working abroad to use the platform to get help,incase of abuse by employer, repatriation,health complications etc.. Through the app the User can directly contact Esafe and its Its partners i.e. Goverement Agencies,Embassies,Labour export companies and report cases of any kind or appreciations</string>
+    <string name="partners">Partners</string>
+    <string name="helpIntro">While creating this awesome project the team came up with some unique features including icons,flow of the app and response. The icon selected or annointed are in similiarity with the type of emergency.</string>
+    <string name="pol">This Icon when pressed sends an emergency alert to the police i.e. Incase of a severe emergency the user is advised to hold the Icon/Button for atleast 5 secs while on a normal kind of alert using may just click on the icon/button.</string>
+    <string name="fir">This Icon when pressed sends an emergency alert to the Fire authorities i.e. Incase of a severe emergency the user is advised to hold the Icon/Button for atleast 5 secs while on a normal kind of alert using may just click on the icon/button.</string>
+    <string name="heal">This Icon when pressed sends an emergency alert to the Health emergency personal i.e. Incase of a severe emergency the user is advised to hold the Icon/Button for atleast 5 secs while on a normal kind of alert using may just click on the icon/button.</string>
+    <string name="polstation">This icon on the map represents a Police station in the area, You can click on it and get direction</string>
+    <string name="polpost">This icon on the map represents a Police Post in the area, You can click on it and get direction</string>
+
+    <string name="hopital">This icon on the map represents Hospital Amnesties in the area, You can click on it and get direction</string>
+    <string name="firestation">This icon on the map represents a Fire station in the area, You can click on it and get direction</string>
+
+    <string-array name="report_category">
+        <item>Compliment</item>
+        <item>Health</item>
+        <item>Legal Services</item>
+        <item>Complaint</item>
+        <item>Abuse</item>
+        <item>Death</item>
+        <item>Employer</item>
+    </string-array>
+
+    <string-array name="relation_array">
+        <item>Family</item>
+        <item>Friend</item>
+        <item>Legal team</item>
+    </string-array>
+
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string name="subscribe_to_weather">Subscribe To News</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to News topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">News Channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <!-- [START fcm_default_icon_string] -->
+    <string name="default_notification_channel_name" translatable="true">News</string>
+    <!-- [END fcm_default_icon_string] -->
+    <string name="msg_subscribe_failed">Failed to subscribe to News topic</string>
+    <string name="_0_0">0.0</string>
+    <string name="this_data_is_provided_supported_by_the_ministry_of_health_of_the_republic_of_uganda"><![CDATA[This Data is provided & supported by the Ministry of Health of the Republic of Uganda]]></string>
+    <string name="note">NOTE!</string>
+    <string name="active_cases">Active Cases</string>
+    <string name="death_cases">Death Cases</string>
+    <string name="recovery_cases">Recovery Cases</string>
+    <string name="covid19_cases">Covid19 Cases</string>
+    <string name="updated">Updated @</string>
+    <string name="symptoms"><![CDATA[Signs & Symptoms]]></string>
+    <string name="aches_pains"><![CDATA[Aches & Pains]]></string>
+    <string name="nausea_runny_nose_diarrhoea">Nausea,Runny Nose,Diarrhoea</string>
+    <string name="alert_authorities">Alert Authorities</string>
+    <string name="sore_throat">Sore Throat</string>
+    <string name="breathing_issues">Breathing Issues</string>
+    <string name="other_symptoms">Other Symptoms</string>
+    <string name="dry_cough">Dry Cough</string>
+    <string name="tiredness">Tiredness</string>
+    <string name="fever">Fever</string>
+    <string name="common_symptoms">Common Symptoms</string>
+    <string name="emergency_contacts">Emergency Contacts</string>
+    <string name="term_conditions"><![CDATA[Term & Conditions]]></string>
+    <string name="i_agree_to_the_terms_conditions_of_this_service">I agree to T&amp;C\'s</string>
+    <string name="terms_conditions_apply"><![CDATA[Terms & Conditions Apply]]></string>
+
+    <string name="msg_error_unable_select_profile_pic">Unable to set profile image. Please try again!</string>
+    <string name="lbl_set_profile_photo">Set profile image</string>
+    <string name="lbl_take_camera_picture">Take a picture</string>
+    <string name="lbl_choose_from_gallery">Choose from gallery</string>
+    <string name="toast_image_intent_null">Image picker option is missing!</string>
+
+    <string name="dialog_permission_title">Grant Permissions</string>
+    <string name="dialog_permission_message">This app needs permission to use this feature. You can grant them in app settings.</string>
+    <string name="go_to_settings">GOTO SETTINGS</string>
+
+</resources>

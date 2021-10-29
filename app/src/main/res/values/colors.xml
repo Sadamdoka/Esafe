@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#001540</color>
+    <color name="colorPrimaryDark">#09246A</color>
+    <color name="colorAccent">#163a5f</color>
+
+
+    <color name="background">#001540</color>
+    <color name="load">#9400D3</color>
+    <color name="pri_text">#9400D3</color>
+    <color name="sec_text">#000000</color>
+    <color name="hint">#9932CC</color>
+    <color name="color_bar">#9932CC</color>
+
+    <color name="profile_default_tint">#e0e0e0</color>
+
+    <color name="purple_transparent">#C3B001FE</color>
+    <color name="transperent"></color>
+    <color name="offwhite">#F2F2F2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="pitblue">#163a5f</color>
+    <color name="lblue">#1d566e</color>
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#58b554</color>
+    <color name="dot_dark_screen2">#14a895</color>
+    <color name="dot_dark_screen3">#2278d4</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+    <color name="dot_light_screen3">#93c6fd</color>
+
+    <!-- Screens background color-->
+    <color name="bg_screen2">#58b554</color>
+    <color name="bg_screen1">#19c8a7</color>
+    <color name="bg_screen3">#8ccc89</color>
+
+    <color name="red">#ED0313</color>
+    <color name="green">#0bf201</color>
+
+    <color name="stgreen">#a1c913</color>
+</resources>

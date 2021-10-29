@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "584236147105",
+    "project_id": "esafe-297911",
+    "storage_bucket": "esafe-297911.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584236147105:android:36f92d90f53cd40f82ebe0",
+        "android_client_info": {
+          "package_name": "com.esafeafrica.esafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584236147105-id58vrd1ngk4997h23d03fntupneju10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTg45huhNscW8a7yX8yLRe-0LJfF4gR4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584236147105-id58vrd1ngk4997h23d03fntupneju10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

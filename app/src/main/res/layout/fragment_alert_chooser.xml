@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/underline_white"
+        android:gravity="right"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/vir_eng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:padding="2dp"
+            android:text="English" />
+
+
+        <TextView
+            android:id="@+id/vir_lug"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:padding="2dp"
+            android:text="Luganda" />
+
+        <TextView
+            android:id="@+id/vir_swahili"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:padding="2dp"
+            android:text="Kiswahili" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rep_rela_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/rep_rel_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:padding="2dp"
+            android:text="Whats your relationship" />
+
+        <Spinner
+            android:id="@+id/rep_relation"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:textSize="15sp"
+            android:visibility="visible" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/rep_relation_lay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/rep_rela_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Your Names" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/rep_persona"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/underline_white"
+                    android:padding="2dp"
+                    android:text="Person"
+                    android:textSize="16sp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/rep_name_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/rep_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Names of Worker" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/rep_tel_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/rep_passport"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Passport Number " />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <CheckBox
+                    android:id="@+id/rep_me"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Not Me!" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/rep_cat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/underline_white"
+                    android:padding="5dp"
+                    android:text="Category"
+                    android:textColor="@color/load"
+                    android:textSize="16sp" />
+
+                <Spinner
+                    android:id="@+id/rep_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:padding="5dp"
+                    android:textSize="15sp"
+                    android:visibility="visible" />
+
+                <CheckBox
+                    android:id="@+id/rep_caseid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Old Case" />
+
+                <Spinner
+                    android:id="@+id/rep_old_caseid"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:padding="5dp"
+                    android:textSize="15sp"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/rep_com"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/underline_white"
+                    android:padding="5dp"
+                    android:text="Mark if true"
+                    android:textColor="@color/load"
+                    android:textSize="16sp" />
+
+                <CheckBox
+                    android:id="@+id/rep_mark1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Sexual Harrasment" />
+
+                <CheckBox
+                    android:id="@+id/rep_mark2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Physical Torture" />
+
+                <CheckBox
+                    android:id="@+id/rep_mark3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Beating" />
+
+                <CheckBox
+                    android:id="@+id/rep_mark4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Denied Food" />
+
+                <CheckBox
+                    android:id="@+id/rep_mark5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Discrimination" />
+
+                <CheckBox
+                    android:id="@+id/rep_mark6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Depression" />
+
+                <CheckBox
+                    android:id="@+id/rep_mark7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Phycological Torture" />
+
+                <CheckBox
+                    android:id="@+id/rep_mark8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="xxx" />
+
+                <CheckBox
+                    android:id="@+id/rep_mark9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="xxx" />
+
+                <CheckBox
+                    android:id="@+id/rep_mark10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="xxx" />
+
+                <CheckBox
+                    android:id="@+id/rep_mark11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="xxx" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/rep_pic"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/underline_white"
+                    android:padding="5dp"
+                    android:text="Do u have a picture"
+                    android:textColor="@color/load"
+                    android:textSize="16sp" />
+
+                <CheckBox
+                    android:id="@+id/rep_pic_check"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Mark if true" />
+
+                <ImageButton
+                    android:id="@+id/rep_pic_evi"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_weight="1"
+                    android:background="@color/transperent"
+                    android:src="@drawable/ic_baseline_photo_camera_24"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/rep_extra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/underline_white"
+                    android:padding="5dp"
+                    android:text="More Details"
+                    android:textColor="@color/load"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/rep_extra_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:ems="10"
+                    android:gravity="start|top"
+                    android:hint="More information here!"
+                    android:inputType="textMultiLine" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/rep_alert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/button"
+                android:text="Report"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
